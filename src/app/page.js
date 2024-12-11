@@ -1,9 +1,10 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-  <>
-    <p className="bg-blue-200">Hello my name is prince</p>
-  </>
+    <>
+      <h2>This is your home page. Please click login link</h2>
+      <Link href="./login">Login</Link>
+    </>
   );
 }
